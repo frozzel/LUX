@@ -1,7 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
-import Logo from '../../assets/logo.png';
+import Logo from './../../assets/logo.png';
 
 
 function Nav() {
@@ -47,7 +47,8 @@ function Nav() {
         <Link to="/">
        
        
-        <img className="Logo" scr={Logo} alt="Indulge" /> 
+        <img className="Logo" src={Logo} alt="Indulge" /> 
+       
         </Link>
       
         
