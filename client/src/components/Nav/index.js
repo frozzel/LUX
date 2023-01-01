@@ -2,7 +2,7 @@ import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
 import Logo from './../../assets/logo.png';
-
+import CategoryMenu from "../CategoryMenu";
 
 function Nav() {
 
@@ -21,6 +21,9 @@ function Nav() {
               Logout
             </a>
           </li>
+          
+          <CategoryMenu />
+          
         </ul>
       );
     } else {
@@ -36,6 +39,9 @@ function Nav() {
               Login
             </Link>
           </li>
+          
+          <CategoryMenu />
+         
         </ul>
       );
     }
