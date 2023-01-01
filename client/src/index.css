@@ -69,6 +69,8 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  /* text-shadow: .5px .5px .5px black; */
+
 }
 
 a {
@@ -85,12 +87,15 @@ ul{
   justify-content: center;
  
 }
+li{
+  color: var(--tertiary);
+}
 header {
   background: var(--primary);
 }
 
 header a {
-  color: var(--light);
+  color: var(--tertiary);
 }
 
 button {
@@ -108,7 +113,7 @@ button {
 
 button:hover {
   opacity: .8;
-  background-color: var(--secondary);
+  background-color: var(--tertiary);
   color: var(--primary);
 }
 
@@ -119,6 +124,10 @@ button[disabled] {
 
 img {
   max-width: 100%;
+  border-top-right-radius: .4rem;
+  border-top-left-radius: .4rem;
+  /* border-bottom: .01rem #F1F1F1 solid; */
+  
 }
 
 span[role="img"] {
@@ -144,7 +153,8 @@ input:focus {
 }
 .Logo {
   height: auto;
-  width: 5vw;
+  width: 7vw;
+  border-bottom: none;
 }
 .Nav1{
   margin-right: var(--spacing-one);
@@ -211,8 +221,18 @@ input:focus {
 }
 
 .card {
-  width: 25%;
+  width: 23%;
   text-align: center;
+  border: 1px solid;
+  margin: .4rem;
+  margin-bottom: 1.5rem;
+  border-radius: .4rem;
+  background-color: var(--primary);
+  padding: 0;
+  color: var(--light);
+  padding-bottom: .2rem;
+  box-shadow: 1px 1px 3px #100F0F;
+  
 }
 
 .error-text {
