@@ -67,7 +67,7 @@ const Cart = () => {
     return (
       <div className="cart-closed" onClick={toggleCart}>
         
-        <FontAwesomeIcon icon={faCartPlus} color="#E2DCC8" />
+        <FontAwesomeIcon icon={faCartPlus} color="#F1F1F1" />
         
       </div>
     );
