@@ -175,6 +175,24 @@ input:focus {
   background-size: 100vw;
 
 }
+.opener{
+  // margin: 3%;
+  // margin-left: 10%;
+  position: relative;
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+  flex-direction: row;
+  
+//  animation-delay: 3s;
+  // animation-fill-mode: forwards;
+}
+.opener img{
+  margin-top: 25vh;
+  margin-left: 65%;
+  animation:  slideInRight 4s;
+}
+
 .prolist{
   margin-top: 15vh;
 }
