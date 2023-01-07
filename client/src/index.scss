@@ -1,3 +1,5 @@
+@import "react-slideshow-image/dist/styles.css";
+
 :root {
   --primary: #100F0F;
   --secondary: #F1F1F1;
@@ -91,10 +93,10 @@ li{
   color: var(--tertiary);
 }
 header {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100vw;
-  opacity: .8;
+  opacity: 1;
   background: var(--primary);
 }
 
@@ -168,40 +170,52 @@ input:focus {
   margin-left: var(--spacing-one);
  
 }
+.sect1{
+  height: 100vh;
+  display: flex;
+}
 .banner {
   
-  height: 100vh;
+  // height: 100vh;
   background-repeat: no-repeat;
   background-size: 100vw;
 
 }
 .opener{
-  // margin: 3%;
+  margin: 10%;
   // margin-left: 10%;
   position: relative;
   display: flex;
-  height: 80vh;
-  width: 100vw;
+  height: 40%;
+  width: 100%;
+  animation:  slideInLeft 4s;
   flex-direction: row;
   
-//  animation-delay: 3s;
-  // animation-fill-mode: forwards;
-}
-.opener img{
-  margin-top: 25vh;
-  margin-left: 65%;
-  animation:  slideInRight 4s;
 }
 
-.prolist{
-  margin-top: 15vh;
+.Gallery img{
+  width: 100vw;
+ 
+  border-radius: 0;
 }
+.slide-container{
+  // width: 100vw;
+  margin: 0;
+}
+
+// .prolist{
+//   margin-top: 15vh;
+// }
 .container {
   width: 85%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
+// .pro1{
+//   margin-top: 25vh;
+// }
+
 
 .flex-row {
   display: flex;
@@ -284,9 +298,9 @@ input:focus {
     font-size: x-small;
     margin-top: 3vh;
   }
-  .banner{
-    margin-top: 20vh;
-  }
+  // .banner{
+  //   margin-top: 10vh;
+  // }
   .card {
     width: 100%;
   }
@@ -301,6 +315,9 @@ input:focus {
     display: none;
     margin-top: 10px;
     
+  }
+  .opener{
+    display: none;
   }
   
 }
