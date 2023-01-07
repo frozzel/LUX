@@ -6,6 +6,7 @@ import 'animate.css';
 // import projectM from "../assets/balenciaga.png";
 // import LogoBlk from "../assets/LogoBlk.png"
 import Gallery from "../components/Gallery";
+import Footer from "../components/Footer";
 
 
 
@@ -29,6 +30,7 @@ const Home = () => {
       <ProductList />
       <Cart />
     </div>
+    <Footer />
     
     </>);
 };
