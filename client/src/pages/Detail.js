@@ -84,16 +84,19 @@ function Detail() {
   return (
     <>
       {currentProduct && cart ? (
-        <div className="container my-1">
+        <div className="container flex-row my-1">
           <Link to="/Products">← Back to Products</Link>
-
+        <div className='container1 flex-row my-1'>
+          <div className='side1 col-6'>
           <h2>{currentProduct.name}</h2>
 
           <p>{currentProduct.description}</p>
 
           <p>
             <strong>Price:</strong>${currentProduct.price}{' '}
-            <button onClick={addToCart}>Add to Cart</button>
+            <div></div>
+            <br />
+            <button  onClick={addToCart}>Add to Cart</button>
             <button
               disabled={!cart.find((p) => p._id === currentProduct._id)}
               onClick={removeFromCart}
@@ -101,12 +104,15 @@ function Detail() {
               Remove from Cart
             </button>
           </p>
-
+          </div>
+          <div className='side2 col-6'>
           <img
             src={`/images/${currentProduct.image}`}
             alt={currentProduct.name}
           />
+          </div>
         </div>
+      </div>
       ) : null}
       {loading ? <img src={spinner} alt="loading" /> : null}
       <Cart />
