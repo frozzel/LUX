@@ -16,6 +16,7 @@ const zoomOutProperties = {
   indicators: false,
   scale: 0.4,
   arrows: false,
+ 
   
 };
 

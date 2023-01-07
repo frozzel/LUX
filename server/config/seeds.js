@@ -5,11 +5,9 @@ db.once('open', async () => {
   await Category.deleteMany();
 
   const categories = await Category.insertMany([
-    { name: 'Food' },
-    { name: 'Household Supplies' },
-    { name: 'Electronics' },
-    { name: 'Books' },
-    { name: 'Toys' }
+    { name: 'Gucci' },
+    { name: 'Prada' },
+    { name: 'Balenciaga' }
   ]);
 
   console.log('categories seeded');
@@ -18,110 +16,110 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Tin of Cookies',
-      description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: 'cookie-tin.jpg',
+      name: 'Gucci',
       category: categories[0]._id,
-      price: 2.99,
-      quantity: 500
+      description:
+        'Influential, innovative and progressive, Gucci is reinventing a wholly modern approach to fashion. The House has redefined luxury for the 21st century, further reinforcing its position as one of the world’s most desirable fashion houses. Eclectic, contemporary, romantic—Gucci products represent the pinnacle of Italian craftsmanship and are unsurpassed for their quality and attention to detail. Gucci is part of the Kering Group. A global Luxury group, Kering manages the development of a series of renowned Houses in Fashion, Leather Goods, Jewellery and Watches.',
+      image: 'GucciLogo.png',
+      price: 100.00,
+      quantity: 100
     },
     {
-      name: 'Canned Coffee',
+      name: 'Gucci Diana medium tote bag',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
-      image: 'canned-coffee.jpg',
+        'In celebration of a new year, as well as the arrival of Spring, the House presents a wide-ranging selection of colorful leather accessories featuring various combinations of materials alongside the Gucci logo. The Web stripe appears in vibrant new colorways in a contemporary revival of an archival detail. This Gucci Diana tote bag is defined by a criss-cross Web stripe.',
+      image: 'diana-tote.png',
       category: categories[0]._id,
-      price: 1.99,
-      quantity: 500
+      price: 7900.00,
+      quantity: 100
     },
     {
-      name: 'Toilet Paper',
-      category: categories[1]._id,
+      name: 'GG Marmont small shoulder bag',
       description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
-      image: 'toilet-paper.jpg',
-      price: 7.99,
-      quantity: 20
+        'In soft, vibrant hues, pastels continue to be explored throughout the latest collections. Made in matelassé chevron leather with a heart on the back in a light shade of lilac the now recognizable small GG Marmont chain shoulder bag has a softly structured shape and a flap closure with Double G hardware. Designed to be worn multiple ways, the chain strap slides to change between a shoulder and a top handle bag.',
+      image: 'guccipurp.avif',
+      category: categories[0]._id,
+      price: 2550.00,
+      quantity: 100
     },
     {
-      name: 'Handmade Soap',
-      category: categories[1]._id,
+      name: 'GG Marmont medium shoulder bag',
+      category: categories[0]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
-      image: 'soap.jpg',
-      price: 3.99,
+        'The medium GG Marmont chain shoulder bag has a softly structured shape and an oversized flap closure with Double G hardware. The sliding chain strap can be worn multiple ways, changing between a shoulder and a top handle bag. Made in matelassé chevron leather with a heart on the back.',
+      image: 'guccibasic.avif',
+      price: 2980.00,
       quantity: 50
     },
     {
-      name: 'Set of Wooden Spoons',
+      name: 'Prada',
       category: categories[1]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
-      image: 'wooden-spoons.jpg',
-      price: 14.99,
+        'The Group combines the distinctive elements of its know-how with principles inspired by the enhancement of people, the protection of the environment, the respect of ethical values and the promotion of culture, believing that in this way it can pursue an inclusive economic development.',
+      image: 'pradalogo.jpg',
+      price: 100.00,
       quantity: 100
     },
     {
-      name: 'Camera',
-      category: categories[2]._id,
+      name: 'Prada Re-Edition 1995 brushed-leather mini handbag',
+      category: categories[1]._id,
       description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
-      image: 'camera.jpg',
-      price: 399.99,
+        'This handbag, a re-edition of an iconic Prada bag of 1995, is characterized by its elegant geometric silhouette with distinct, minimalist lines. Formal allure and practicality meet in its design with a central zipper closure, enhanced by the sophisticated accent of the screen-printed lettering logo. The accessory is made of fine brushed leather, an expression of the brands expertise.',
+      image: 'parada1.webp',
+      price: 3300.00,
       quantity: 30
     },
     {
-      name: 'Tablet',
-      category: categories[2]._id,
+      name: 'Medium Prada Galleria Saffiano leather bag',
+      category: categories[1]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
-      image: 'tablet.jpg',
-      price: 199.99,
+      'Production of the Prada Galleria bag, composed of 83 pieces, is an authentic fusion between industrial precision and the refined accuracy of craftsmanship that can only be performed by hand. The design is clean and elegant yet innately pragmatic, an aesthetic language blending form and function that combines history and modernity. Originating the definition of "timeless", the Galleria bag has become a hallmark of Pradas identity in the twenty-first century. The accessory, presented in the medium version, is made of iconic Saffiano, a calf leather patented by Mario Prada that is resistant to scratches and water and defined by its crosshatch texture.',
+      image: 'prada2.webp',
+      price: 4300.00,
       quantity: 30
     },
     {
-      name: 'Tales at Bedtime',
-      category: categories[3]._id,
+      name: 'Prada Cleo brushed leather shoulder bag',
+      category: categories[1]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
-      image: 'bedtime-book.jpg',
-      price: 9.99,
+      "The Prada Cleo bag with sophisticated allure reinterprets an iconic design of the brand from the nineties. The sleek, curved lines emphasized by the particular sloped construction of the bottom and sides give this hobo bag a soft, light look. Brushed leather, a distinctive element of Prada collections, is a modern and versatile material that lends itself to always new combinations and contrasts. The enamel triangle logo decorates the silhouette.",
+      image: 'prada3.webp',
+      price: 3950.00,
       quantity: 100
     },
     {
-      name: 'Spinning Top',
-      category: categories[4]._id,
+      name: 'Balenciaga',
+      category: categories[2]._id,
       description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
-      image: 'spinning-top.jpg',
-      price: 1.99,
+      image: 'BalLogo.webp',
+      price: 1000.00,
       quantity: 1000
     },
     {
-      name: 'Set of Plastic Horses',
-      category: categories[4]._id,
+      name: "WOMEN'S CRUSH SMALL CHAIN BAG QUILTED IN PINK",
+      category: categories[2]._id,
       description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
-      image: 'plastic-horses.jpg',
-      price: 2.99,
-      quantity: 1000
-    },
-    {
-      name: 'Teddy Bear',
-      category: categories[4]._id,
-      description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
-      image: 'teddy-bear.jpg',
-      price: 7.99,
+      "Carbon footprint: we work to continually reduce the environmental footprint of our products. The remaining carbon emissions associated with all activities in this product’s life cycle are carefully calculated, and we commit to invest funds into carbon removal projects that protect and restore natural ecosystems to tackle climate change.",  
+      image: 'bal1.jpg',
+      price: 2650.00,
       quantity: 100
     },
     {
-      name: 'Alphabet Blocks',
-      category: categories[4]._id,
+      name: "WOMEN'S LE CAGOLE XS SHOULDER BAG IN RED",
+      category: categories[2]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
+      "Le Cagole XS Shoulder Bag in red Arena lambskin, aged-silver hardware",
+      image: 'bal2.jpg',
+      price: 2500.00,
+      quantity: 100
+    },
+    {
+      name: "WOMEN'S NEO CAGOLE XS HANDBAG WITH RHINESTONES IN WHITE",
+      category: categories[2]._id,
+      description:
+      "Neo Cagole XS Handbag in white Arena lambskin, aged-silver hardware with rhinestones",
+      image: 'bal3.jpg',
+      price: 2900.00,
       quantity: 600
     }
   ]);

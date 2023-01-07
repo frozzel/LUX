@@ -44,15 +44,15 @@ function ProductItem(item) {
       <Link to={`/products/${_id}`}>
         <img
           alt={name}
-          src={`/images/${image}`}
+          src={`/images/${image}`} 
         />
-        <p>{name}</p>
+        <p className="info">{name}</p>
       </Link>
-      <div>
+      <div className="info">
         <div>{quantity} {pluralize("item", quantity)} in stock</div>
         <span>${price}</span>
       </div>
-      <button onClick={addToCart}>Add to cart</button>
+      <button className="info" onClick={addToCart}>Add to cart</button>
     </div>
   );
 }

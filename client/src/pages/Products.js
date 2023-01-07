@@ -2,12 +2,12 @@ import React from "react";
 import ProductList from "../components/ProductList";
 // import CategoryMenu from "../components/CategoryMenu";
 import Cart from "../components/Cart";
-import Gallery from "../components/Gallery";
+// import Gallery from "../components/Gallery";
 
 
 const Products = () => {
   return (<>
-   <Gallery />
+   {/* <Gallery /> */}
     <div className="container">
       
       {/* <CategoryMenu /> */}
