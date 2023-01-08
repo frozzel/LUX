@@ -76,9 +76,10 @@ p {
 }
 
 a {
+  font-family: 'Karla', sans-serif;
   color: var(--tertiary);
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 a:hover {
@@ -90,7 +91,7 @@ ul{
  
 }
 li{
-  color: var(--tertiary);
+  color: var(--light);
 }
 header {
   position: relative;
@@ -108,6 +109,8 @@ header a {
 
 button {
   font-size: 1rem;
+  font-family: 'Karla', sans-serif;
+  font-style: bold;
   text-decoration: none;
   padding: 0.25rem 1rem;
   border-radius: .2rem;
@@ -116,7 +119,9 @@ button {
   cursor: pointer;
   margin: 0 1px;
   background-color: var(--primary);
-  color: var(--secondary);
+  color: var(--light);
+  // margin-left: var(--spacing-one);
+  // margin-right: var(--spacing-one);
 }
 
 button:hover {
@@ -133,18 +138,12 @@ button[disabled] {
 img {
  width: 100%;
   
-  // border-top-right-radius: .4rem;
-  // border-top-left-radius: .4rem;
-  /* border-bottom: .01rem #F1F1F1 solid; */
-  
 }
 
-span[role="img"] {
-  cursor: default;
-}
+
 
 form {
-  width: 40%;
+  width: 10vw;
 }
 
 input {
@@ -169,8 +168,8 @@ input:focus {
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
+  // margin-right: var(--spacing-one);
+  // margin-left: var(--spacing-one);
   z-index: 1;
  
 }
@@ -221,6 +220,11 @@ input:focus {
 .container1{
   width: 100vw;
 }
+.container2{
+justify-content: center;
+width: 100%;
+padding: 5%;
+}
 
 
 .flex-row {
@@ -237,6 +241,8 @@ input:focus {
 }
 
 .mx-1 {
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
 }
@@ -336,6 +342,9 @@ input:focus {
   display: inline;
   color: var(--light);
  }
+ .anchor-icon:hover{
+  color: var(--tertiary);
+ }
  
 }
 .btmfoot{
@@ -352,7 +361,7 @@ input:focus {
 
 @media screen and (max-width: 768px) {
   header{
-    // position: absolute;
+    height: 10vh;
     opacity: 1;
   }
   nav{
@@ -369,12 +378,19 @@ input:focus {
     display: flex;
     flex-wrap: wrap;
     height: auto;
-    width: 25vw;
+    width: 15vw;
+    margin-top:21%;
     
+  }
+  button{
+    margin: .1%;
+    font-size: x-small;
+    padding: 0;
   }
   .Nav1{
     display: none;
     margin-top: 10px;
+   
     
   }
   .opener{
