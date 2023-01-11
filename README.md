@@ -36,8 +36,8 @@
   [Vist Our Site](https://indulge.herokuapp.com/)
   
   
-![Screen Shots](./public/image/Untitled.gif)
-![Screen Shots2](./public/image/indulgeScreen.png)
+![Screen Shots](https://github.com/frozzel/LUX/blob/82cb21e27f1b5b0975604393a17884d0fb3fa91c/client/public/images/Untitled.gif)
+![Screen Shots2](https://github.com/frozzel/LUX/blob/82cb21e27f1b5b0975604393a17884d0fb3fa91c/client/public/images/indulgeScreen.png)
 
 
   ## Resources
