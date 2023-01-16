@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 
 
 mongoose.connect( `mongodb+srv://lambdauser:root1234@cluster0.i1qni6a.mongodb.net/?retryWrites=true&w=majority`, {
-  useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true
+  useNewUrlParser: true, useUnifiedTopology: true
 });
 
 module.exports = mongoose.connection;
