@@ -23,7 +23,7 @@
   ## Table of Contents (Optional)
   
   - [Installation](#installation)
-  - [Usage](#usage)
+  - [Deployment](#Deployment)
   - [Resources](#resources)
   - [License](#license)
   - [Test](#tests)
