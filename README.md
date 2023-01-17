@@ -1,5 +1,5 @@
 <div>
-<a href=""><img src="https://github.com/frozzel/LUX/blob/be3727e1fa54ae8219ca26a3bb81049a3f732738/client/src/assets/logo.png" align="center" height="" width="100%" ></a></div>
+<a href=""><img src="https://github.com/frozzel/LUX/blob/be3727e1fa54ae8219ca26a3bb81049a3f732738/client/src/assets/logo.png" align="center" height="" width="50%" ></a></div>
 
 
 --- 
@@ -12,11 +12,7 @@
 
 
   ## Description
- Mock Ecommerce site that utilizes global state and react hooks. The site is integrated with stripe payments.
-
--Full stack application with mongoDb/mongoose integrations & Apollo/graphql server side.
-
--React/Apollo integration frontside utilizing global state and stripe integration along with animate.css and SASS.
+ Mock Ecommerce site that utilizes global state and react hooks. The site is integrated with stripe payments.Full stack application with mongoDb/mongoose integrations & Apollo/graphql server side. React/Apollo integration frontside utilizing global state and stripe integration along with animate.css and SASS. EC2 and Heroku Deployments!
 
 
   
@@ -42,10 +38,7 @@
 
   ## Resources
 
- 
-
   [BootCamp Tutorial](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
-  
   
   
   ## License
