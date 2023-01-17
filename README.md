@@ -3,7 +3,7 @@
 
 
 
-   # Indulge  [![Github license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+   # Indulge  [![Github license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/frozzel/LUX) [![Heroku](https://img.shields.io/badge/Heroku-430098.svg?style=for-the-badge&logo=Heroku&logoColor=white)](https://indulge.herokuapp.com/) [![AWS EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900.svg?style=for-the-badge&logo=Amazon-EC2&logoColor=white)](https://youtu.be/yZqc9ZoLggI)
  
 
 
@@ -13,7 +13,7 @@
 
 
   ## Deployment
-[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/frozzel/LUX) [![Heroku](https://img.shields.io/badge/Heroku-430098.svg?style=for-the-badge&logo=Heroku&logoColor=white)](https://indulge.herokuapp.com/) [![AWS EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900.svg?style=for-the-badge&logo=Amazon-EC2&logoColor=white)](https://youtu.be/yZqc9ZoLggI)
+
   
   
 ![Screen Shots](https://github.com/frozzel/LUX/blob/82cb21e27f1b5b0975604393a17884d0fb3fa91c/client/public/images/Untitled.gif)
