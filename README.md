@@ -3,7 +3,8 @@
 
 
 
-   # Indulge  [![Github license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/frozzel/LUX) [![Heroku](https://img.shields.io/badge/Heroku-430098.svg?style=for-the-badge&logo=Heroku&logoColor=white)](https://indulge.herokuapp.com/) [![AWS EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900.svg?style=for-the-badge&logo=Amazon-EC2&logoColor=white)](https://youtu.be/yZqc9ZoLggI)
+   # Indulge   [![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/frozzel/LUX) [![Heroku](https://img.shields.io/badge/Heroku-430098.svg?style=for-the-badge&logo=Heroku&logoColor=white)](https://indulge.herokuapp.com/) [![AWS EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900.svg?style=for-the-badge&logo=Amazon-EC2&logoColor=white)](https://youtu.be/yZqc9ZoLggI)
+ 
  
 
 
@@ -12,10 +13,8 @@
  Mock Ecommerce site that utilizes global state and react hooks. The site is integrated with stripe payments.Full stack application with mongoDb/mongoose integrations & Apollo/graphql server side. React/Apollo integration frontside utilizing global state and stripe integration along with animate.css and SASS. EC2 and Heroku Deployments!
 
 
-  ## Deployment
+  ## Screen Shots
 
-  
-  
 ![Screen Shots](https://github.com/frozzel/LUX/blob/82cb21e27f1b5b0975604393a17884d0fb3fa91c/client/public/images/Untitled.gif)
 ![Screen Shots2](https://github.com/frozzel/LUX/blob/82cb21e27f1b5b0975604393a17884d0fb3fa91c/client/public/images/indulgeScreen.png)
 
@@ -27,4 +26,6 @@
   Created by: [@frozzel](https://github.com/frozzel/LUX)
   
   Please contact me with questions at: frozzel@me.com
+  
+  [![Github license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
