@@ -1,14 +1,11 @@
 <div>
-<a href=""><img src="https://github.com/frozzel/LUX/blob/be3727e1fa54ae8219ca26a3bb81049a3f732738/client/src/assets/logo.png" align="center" height="" width="50%" ></a></div>
+<a href=""><img src="https://github.com/frozzel/LUX/blob/be3727e1fa54ae8219ca26a3bb81049a3f732738/client/src/assets/logo.png" align="center" height="" width="30%" ></a></div>
 
-
---- 
   
   
-  
-  # Indulge
+  # Indulge  [![Github license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
- [![Github license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 
   ## Description
