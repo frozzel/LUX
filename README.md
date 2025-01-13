@@ -3,7 +3,13 @@
 
 
 
-   # Indulge   [![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/frozzel/LUX) [![Heroku](https://img.shields.io/badge/Heroku-430098.svg?style=for-the-badge&logo=Heroku&logoColor=white)](https://indulge.herokuapp.com/) [![AWS EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900.svg?style=for-the-badge&logo=Amazon-EC2&logoColor=white)](https://youtu.be/yZqc9ZoLggI)
+# Indulge   
+   
+[![AWS EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900.svg?style=for-the-badge&logo=Amazon-EC2&logoColor=white)](https://youtu.be/yZqc9ZoLggI)
+
+>[CAUTION]
+>Site has been depreciated and is no longer serviced
+
  
  ---
 
